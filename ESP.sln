@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESP_Library", "ESP_Library\ESP_Library.csproj", "{34D4A666-33EE-4271-A29B-9C2D227F0014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESP_Server", "ESP_Server\ESP_Server.csproj", "{A479F24E-798C-4F93-AB93-90BFFBC8214E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ESP_Shared", "ESP_Shared\ESP_Shared.shproj", "{460FC51B-3E8D-42B8-B891-8653C5531E49}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ESP_Shared\ESP_Shared.projitems*{460fc51b-3e8d-42b8-b891-8653c5531e49}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D4A666-33EE-4271-A29B-9C2D227F0014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D4A666-33EE-4271-A29B-9C2D227F0014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D4A666-33EE-4271-A29B-9C2D227F0014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D4A666-33EE-4271-A29B-9C2D227F0014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A479F24E-798C-4F93-AB93-90BFFBC8214E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A479F24E-798C-4F93-AB93-90BFFBC8214E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A479F24E-798C-4F93-AB93-90BFFBC8214E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A479F24E-798C-4F93-AB93-90BFFBC8214E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEB3F10B-8AC7-4C38-AF2A-38E342457C64}
+	EndGlobalSection
+EndGlobal
